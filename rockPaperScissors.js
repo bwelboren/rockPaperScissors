@@ -6,7 +6,6 @@ const getUserChoice = userInput => {
     case "paper":
     case "bomb":
       return userInput;
-      break;
     default:
       return "err";
   }
